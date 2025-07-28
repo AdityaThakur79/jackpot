@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a98ad70c.css",
+    "main.js": "/static/js/main.5820f14e.js",
+    "static/media/jp-kids-9.jpg": "/static/media/jp-kids-9.fbf36ddf18fa643b8cdb.jpg",
+    "static/media/jackpot_galleria.png": "/static/media/jackpot_galleria.44be354936239ee1b533.png",
+    "static/media/jackpot-1.png": "/static/media/jackpot-1.e410c1831c7fd6255d21.png",
+    "static/media/jackpot-4.png": "/static/media/jackpot-4.5472e71a42af0f51bc8c.png",
+    "static/media/jp-duo-2.jpg": "/static/media/jp-duo-2.dc138706695d404d1e1f.jpg",
+    "static/media/jp-women-8.jpg": "/static/media/jp-women-8.b1cbdfd9b9186b185ff1.jpg",
+    "static/media/jp-duo-1.jpg": "/static/media/jp-duo-1.739fa7597332df414532.jpg",
+    "static/media/jp-women-10.jpg": "/static/media/jp-women-10.7621665b44cc4d9b6afd.jpg",
+    "static/media/jp-womne-9.jpg": "/static/media/jp-womne-9.9d0ece48706f50d42db9.jpg",
+    "static/media/jackpot-5.png": "/static/media/jackpot-5.dbc630f03d85883f1f70.png",
+    "static/media/jp-duo-4.jpg": "/static/media/jp-duo-4.af95c348f755c0a53689.jpg",
+    "static/media/jp-kids-2.jpg": "/static/media/jp-kids-2.55de1d5578b296124b5b.jpg",
+    "static/media/jp-kids-3.jpg": "/static/media/jp-kids-3.3a6457eba6b2b2b450bc.jpg",
+    "static/media/jackpot-2.png": "/static/media/jackpot-2.4e43df9b9735ace0b14e.png",
+    "static/media/mens.png": "/static/media/mens.011aa71becadc0ddf2c6.png",
+    "static/media/jp-duo-3.jpg": "/static/media/jp-duo-3.3cd784183a663e21400a.jpg",
+    "static/media/jackpot-6.png": "/static/media/jackpot-6.c42cd9dc1a71e7df800e.png",
+    "static/media/jackpot-3.png": "/static/media/jackpot-3.a8873500be1ac1769f6d.png",
+    "static/media/jp-kids-8.jpg": "/static/media/jp-kids-8.19baf8acccebf482226f.jpg",
+    "static/media/jp-kids-6.jpg": "/static/media/jp-kids-6.a30edf23bfa0407cd2e7.jpg",
+    "static/media/jp-kids-7.jpg": "/static/media/jp-kids-7.36f6c245e921f27382cd.jpg",
+    "static/media/jp-kids-4.jpg": "/static/media/jp-kids-4.6067905e62a92ed19c72.jpg",
+    "static/media/jp-kids-5.jpg": "/static/media/jp-kids-5.005f9533a6474bac6bbb.jpg",
+    "static/media/jp-women-7.jpg": "/static/media/jp-women-7.a63bc21269c0dc28c42f.jpg",
+    "static/media/jp-women-5.jpg": "/static/media/jp-women-5.3a18952d1529056070af.jpg",
+    "static/media/jp-women-6.jpg": "/static/media/jp-women-6.7c2810e4a67ac0049622.jpg",
+    "static/media/jp-women-4.jpg": "/static/media/jp-women-4.4cd929ac6789224dc812.jpg",
+    "static/media/jp-women-3.jpg": "/static/media/jp-women-3.026b5eaca7866fdb56d0.jpg",
+    "static/media/jp-women-2.jpg": "/static/media/jp-women-2.88d5e4768f9025f2195d.jpg",
+    "static/media/jackpot_logo_main.png": "/static/media/jackpot_logo_main.f7d5b1ceaa046716773c.png",
+    "index.html": "/index.html",
+    "main.a98ad70c.css.map": "/static/css/main.a98ad70c.css.map",
+    "main.5820f14e.js.map": "/static/js/main.5820f14e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a98ad70c.css",
+    "static/js/main.5820f14e.js"
+  ]
+}

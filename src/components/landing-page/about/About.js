@@ -1,26 +1,43 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Star, Sparkles, Crown, Heart, Users, Award, Zap } from 'lucide-react';
+import jpWomen2 from '../../../assets/gallery/women/jp-women-2.jpg';
+import jpWomen3 from '../../../assets/gallery/women/jp-women-3.jpg';
+import jpWomen4 from '../../../assets/gallery/women/jp-women-4.jpg';
+import jpWomen5 from '../../../assets/gallery/women/jp-women-5.jpg';
+import jpWomen6 from '../../../assets/gallery/women/jp-women-6.jpg';
+import jpWomen7 from '../../../assets/gallery/women/jp-women-7.jpg';
+import jpWomen8 from '../../../assets/gallery/women/jp-women-8.jpg';
+import jpWomen9 from '../../../assets/gallery/women/jp-womne-9.jpg';
+import jpWomen10 from '../../../assets/gallery/women/jp-women-10.jpg';
+import jpkid2 from '../../../assets/gallery/kids/jp-kids-2.jpg';
+import jpkid3 from '../../../assets/gallery/kids/jp-kids-3.jpg';
+import jpkid4 from '../../../assets/gallery/kids/jp-kids-4.jpg';
+import jpkid5 from '../../../assets/gallery/kids/jp-kids-5.jpg';
+import jpkid6 from '../../../assets/gallery/kids/jp-kids-6.jpg';
+import jpkid7 from '../../../assets/gallery/kids/jp-kids-7.jpg';
+import jpkid8 from '../../../assets/gallery/kids/jp-kids-8.jpg';
+import jpkid9 from '../../../assets/gallery/kids/jp-kids-9.jpg';
+import jpduo1 from '../../../assets/gallery/duo/jp-duo-1.jpg';
+import jpduo2 from '../../../assets/gallery/duo/jp-duo-2.jpg';
+import jpduo3 from '../../../assets/gallery/duo/jp-duo-3.jpg';
+import jpduo4 from '../../../assets/gallery/duo/jp-duo-4.jpg';
+import jackpot_galleria from '../../../assets/jackpot_galleria.png';
 
-// Sample images - replace with your actual image imports
+// Sample images to replace the imported ones
 const sampleImages = {
-  women: [
-    'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=600&fit=crop',
-    'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=600&fit=crop',
-    'https://images.unsplash.com/photo-1583496661160-fb5886a13d14?w=400&h=600&fit=crop'
-  ],
-  kids: [
-    'https://images.unsplash.com/photo-1503919005314-30d93d07d823?w=400&h=600&fit=crop',
-    'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&h=600&fit=crop'
-  ],
-  duo: [
-    'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=600&fit=crop',
-    'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=600&fit=crop'
-  ],
-  store: [
-    'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=500&fit=crop',
-    'https://images.unsplash.com/photo-1572021335469-31706a17aaef?w=800&h=500&fit=crop'
-  ]
+    women: [
+        jpWomen10, jpWomen2, jpWomen3
+    ],
+    kids: [
+        jpkid2, jpkid3, jpkid4, jpkid5, jpkid6, jpkid7, jpkid8, jpkid9
+    ],
+    duo: [
+        jpduo2
+    ],
+    store: [
+        jackpot_galleria, jackpot_galleria
+    ]
 };
 
 const JackpotAboutSection = () => {
@@ -178,14 +195,14 @@ const JackpotAboutSection = () => {
                 variants={containerMotion}
               >
                 <motion.div className="space-y-4" variants={floatMotion}>
-                  <div className="h-48 w-full overflow-hidden rounded-xl shadow-lg">
+                  <div className="h-72 w-full overflow-hidden rounded-xl shadow-lg">
                     <img
                       src={sampleImages.women[0]}
                       alt="Fashion Model 1"
                       className="h-full w-full object-cover object-center hover:scale-105 transition-transform duration-500"
                     />
                   </div>
-                  <div className="h-32 w-full overflow-hidden rounded-xl shadow-lg">
+                  <div className="h-52 w-full overflow-hidden rounded-xl shadow-lg">
                     <img
                       src={sampleImages.kids[0]}
                       alt="Kids Fashion"
@@ -195,14 +212,14 @@ const JackpotAboutSection = () => {
                 </motion.div>
                 
                 <motion.div className="space-y-4 pt-8" variants={cardMotion}>
-                  <div className="h-32 w-full overflow-hidden rounded-xl shadow-lg">
+                  <div className="h-52 w-full overflow-hidden rounded-xl shadow-lg">
                     <img
                       src={sampleImages.duo[0]}
                       alt="Couple Fashion"
                       className="h-full w-full object-cover object-center hover:scale-105 transition-transform duration-500"
                     />
                   </div>
-                  <div className="h-48 w-full overflow-hidden rounded-xl shadow-lg">
+                  <div className="h-72 w-full overflow-hidden rounded-xl shadow-lg">
                     <img
                       src={sampleImages.women[1]}
                       alt="Fashion Model 2"

@@ -52,7 +52,7 @@ const Header = () => {
   };
 
   return (
-    <div className="relative overflow-hidden bg-white">
+    <div className="relative overflow-hidden bg-white  min-h-[80vh]">
       {/* INITIAL PAGE SETUPS -> TAILWINDCSS */}
       <div className="pb-80 pt-12 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
@@ -67,11 +67,11 @@ const Header = () => {
               Your Style, Your Statement
             </motion.h1>
             <motion.h1 className="text-3xl font-bold tracking-tight text-yellow-700 sm:text-4xl mt-2" variants={textMotion}>
-              Trendy fits for every vibe 
+              Trendy fits for every vibe
             </motion.h1>
             {/* SUBHEADING TEXT */}
             <motion.p className="mt-4 text-xm text-gray-700" variants={textMotion}>
-              Jackpot Clothing Store isn’t just fashion, it’s a movement. we bring you curated collections that blend trend, comfort, and tradition.<br/>
+              Jackpot Clothing Store isn’t just fashion, it’s a movement. we bring you curated collections that blend trend, comfort, and tradition.<br />
               <span className="block mt-2 italic text-yellow-800 font-semibold">Redefining luxury, one outfit at a time.</span>
             </motion.p>
           </motion.div>
@@ -100,7 +100,7 @@ const Header = () => {
                     </div>
                     <div className="h-64 w-44 overflow-hidden rounded-lg shadow-xl">
                       <img
-                        src={jpWomen5}
+                        src={jpkid9}
                         alt="model-2-M"
                         className="h-full w-full object-cover object-center"
                       />
@@ -111,13 +111,13 @@ const Header = () => {
                   <motion.div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8" variants={colMotion_UP}>
                     <div className="h-64 w-44 overflow-hidden rounded-lg shadow-xl">
                       <img
-  src={jpWomen6}                        alt="model-3-F"
+                        src={jpWomen6} alt="model-3-F"
                         className="h-full w-full object-cover object-center"
                       />
                     </div>
                     <div className="h-64 w-44 overflow-hidden rounded-lg shadow-xl">
                       <img
-                        src={jpkid9} alt="model-4-M"
+                        src={jpWomen7} alt="model-4-M"
                         className="h-full w-full object-cover object-center shadow-xl"
                       />
                     </div>
@@ -151,11 +151,11 @@ const Header = () => {
 
             {/* HEADER BUTTON */}
             <motion.span variants={textMotion}>
-              <a href="#stores" className="inline-block rounded-full border border-transparent bg-yellow-500 px-4 lg:px-8 py-2 lg:py-3 text-center font-medium text-yellow-900 transition-transform duration-300 transform hover:scale-95 hover:bg-yellow-600 shadow-lg mr-4">
-                📍 Visit Us
+              <a href="#stores" className="hidden md:inline-block rounded-full border border-transparent bg-yellow-500 px-4 lg:px-8 py-2 lg:py-3 text-center font-medium text-yellow-900 transition-transform duration-300 transform hover:scale-95 hover:bg-yellow-600 shadow-lg mr-4">
+                Visit Us
               </a>
               <a href="#gallery" className="inline-block rounded-full border border-transparent bg-yellow-100 px-4 lg:px-8 py-2 lg:py-3 text-center font-medium text-yellow-900 transition-transform duration-300 transform hover:scale-95 hover:bg-yellow-200 shadow-lg">
-                📷 View Our Style
+                View Our Style
               </a>
             </motion.span>
 

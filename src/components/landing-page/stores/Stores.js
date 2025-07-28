@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import jackpot_galleria from '../../../assets/jackpot_galleria.png';
 import { MapPin, Phone, Map } from 'lucide-react';
 import { motion } from 'framer-motion';
-
+import men from "../../../assets/gallery/men/mens.png"
 const storeDetails = {
   colaba: {
     name: "Colaba",
@@ -11,7 +11,7 @@ const storeDetails = {
     description: "Located in the heart of historic Mumbai, where colonial charm meets contemporary fashion.",
     address: "Shop No. 3, Colaba Causeway, Mumbai, Maharashtra 400005",
     mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.2450419233837!2d72.82797537665964!3d18.92054485683159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c0647e0e8b%3A0x21cb0ea01a5ec6d4!2sTHE%20JACKPOT!5e0!3m2!1sen!2sin!4v1753709960795!5m2!1sen!2sin",
-    image: jackpot_galleria
+    image: men
   },
   galleria: {
     name: "Galleria Powai",
